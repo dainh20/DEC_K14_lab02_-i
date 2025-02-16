@@ -43,7 +43,7 @@ df["description"] = df["description"].apply(lambda x: x.strip())
 from sqlalchemy import create_engine
 
 # Tạo engine kết nối tới PostgreSQL
-engine = create_engine('postgresql://nguyenhuudai:963258741@localhost:5432/dec_k14')
+engine = create_engine('postgresql://nguyenhuudai:zxcvbnm@localhost:5432/dec_k14')
 
 try:
     # Load DataFrame vào database
